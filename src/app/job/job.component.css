@@ -1,0 +1,23 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.job {
+  display: flex;
+  background-color: rgba(218, 204, 144, 0.562);
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  overflow:inherit;
+  text-align: center!important;
+}
+
+.searchBox {
+  width: 400px!important;
+}

@@ -1,0 +1,33 @@
+<!--Pagina iniziale con le varie offerte di lavoro-->
+<div class="searchBox">
+  <p>
+    <input
+    class="form-control"
+    type="text"
+    name="search"
+    [(ngModel)]="searchText"
+    autocomplete="off"
+    placeholder="Search by level, job, enterprise..">
+  </p>
+</div>
+
+<div
+[routerLink]="['/job', jobInfo.id]"
+ class="job"
+ *ngFor ="let jobInfo of jobsInfo | filter:searchText">
+
+  <div>
+    <h3> {{jobInfo.name }} </h3>
+
+    <p><strong>{{ jobInfo.levels[0].name }}</strong></p>
+
+    <p> Location: {{ jobInfo.locations[0].name }}</p>
+
+    <p> Company: {{ jobInfo.company.name }} </p>
+  </div>
+
+</div>
+
+<div *ngIf="response">
+  <p>{{ error }}</p>
+</div>

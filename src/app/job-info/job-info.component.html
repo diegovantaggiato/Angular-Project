@@ -1,0 +1,31 @@
+<div class="info">
+
+  <div>
+    <div><h3>{{ displayData[0].jobName }}</h3></div>
+    <div><h4><strong>{{ displayData[0].companyName }}</strong></h4></div>
+  </div>
+
+  <div class="buttons">
+    <button mat-raised-button color="accent" (click) = "backClicked()">Back</button>
+    <button
+      [routerLink]="['/job', displayData[0].companyId, displayData[0].detailCompanyId]"
+      mat-raised-button color="accent">
+      Info Impresa
+    </button>
+  </div>
+
+  <div>
+      <p>Data: {{ this.displayData[0].publicationDate | date }}</p>
+  </div>
+</div>
+
+<section class="description">
+  <div class="emptyFix"></div>
+  <h4>Description:</h4>
+  <p [innerHTML]="displayData[0].contents"></p>
+</section>
+
+
+<div *ngIf="response">
+  <p>{{ error }}</p>
+</div>

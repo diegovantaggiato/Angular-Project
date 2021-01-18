@@ -1,0 +1,30 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 150px;
+}
+
+.description {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons > button {
+  margin-right: 5px;
+}
+
+.emptyFix {
+  height: 3vh;
+}
