@@ -7,8 +7,9 @@ Come librerie esterne ho utilizzato bootstrap, angular material e jQuery. Il sit
   - Barra di ricerca:
       Per realizzarla ho installato da terminale ng2-filter:
       npm i ng2-search-filter --save
-  -Tutte le offerte di lavoro con le sue info principali;
- Cliccando su una delle offerte si aprirà una nuova pagina con tutte le informazioni complete relative all'offerta di lavoro; da qui è inoltre possibile
+  - Tutte le offerte di lavoro con le sue info principali;
+  - Cliccando su una delle offerte si aprirà una nuova pagina con tutte le informazioni complete relative all'offerta di lavoro; 
+  - Da qui è inoltre possibile
  accedere, premendo su "info impresa", a tutti i dettagli dell'azienda relativa all'offerta di lavoro.
  E' un sito molto semplice e quindi intuitivo.
  
