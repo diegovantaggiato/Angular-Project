@@ -13,11 +13,11 @@ Come librerie esterne ho utilizzato bootstrap, angular material e jQuery. Il sit
  E' un sito molto semplice e quindi intuitivo.
  
  Per la prova in locale digitare da terminale:
- cd desktop
- cd Angular-project-main
- cd Angular-project-main
- npm i
- ng build
- ng serve
+ -cd desktop
+ -cd Angular-project-main
+ -cd Angular-project-main
+ -npm i
+ -ng build
+ -ng serve
  
- link firebase: https://angular-app-job.web.app/
+ ..-link firebase: https://angular-app-job.web.app/
